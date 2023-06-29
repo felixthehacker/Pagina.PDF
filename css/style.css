@@ -1,0 +1,127 @@
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+/* Estilo para campos de entrada de texto */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1em;
+}
+
+/* Estilo para botones de formulario */
+input[type="submit"],
+
+button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Estilo para botones de formulario al pasar el cursor sobre ellos */
+input[type="submit"]:hover,
+button:hover {
+  background-color: #0069d9;
+}
+
+/* Estilo para mensajes de error del formulario */
+.error {
+  color: #dc3545;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* Estilo para mensajes de éxito del formulario */
+.success {
+  color: #28a745;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.login-form {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+.login-form h1 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.welcome {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome h1 {
+    margin: 0;
+}
+
+.welcome a {
+    color: #fff;
+}
+
+.admin-content,
+.user-content {
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+}

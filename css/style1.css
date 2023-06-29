@@ -1,0 +1,37 @@
+.register-form {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    max-width: 400px;
+}
+
+.register-form h1 {
+    text-align: center;
+    color: #333;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.register-form input[type="text"],
+.register-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
